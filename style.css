@@ -1,0 +1,368 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  background-color: white;
+}
+
+.home{
+
+    width: 98%;
+    height: 740px;
+    background-color: black;
+    border-radius: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 10px;
+
+}
+
+.navbar{
+    height: 350px;
+    width: 54px;
+    background-color: #222E2E;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#homelogo{
+    width: 35px;
+}
+#skillslogo{
+    width: 35px;
+}
+#projectslogo{
+    width: 35px;
+}
+#contactslogo{
+    width: 35px;
+}
+.homeleft{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    height: inherit;
+}
+.homeleft span{
+    color: #ff0000;
+}
+
+.homeright{
+    height: inherit;
+}
+
+#Profile{
+    width:440px ;
+    border-radius: 100%;
+    margin-top: 110px;
+}
+
+.SocialMedia img{
+    width: 60px;
+}
+
+.SocialMedia{
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.SocialMedia a{
+    height: px;
+}
+.homeleft button{
+    background-color: #ff0000;
+    color: white;
+    font-size: 25px;
+    font-family: 'Karla',sans-serif;
+    padding: 10px 40px;
+    border-radius: 16px;
+    margin-top: 190px;
+    border: none;
+}
+
+.homeleft h1{
+    font-size: 70px;
+    font-weight: 800;
+    
+}
+
+.homeleft h2{
+    font-size:38px ;
+    font-weight:normal ;
+    margin-top: 260px;
+}
+.homeleft h3{
+    font-size:30px ;
+    font-weight: normal;
+}
+
+.skills{
+    width: 98%;
+    height: 740px;
+    background-color:black;
+    border-radius: 25px;
+    margin: 0px 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+.skillHeading {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skillHeading h1{
+    font-size: 50px;
+}
+.skillHeading h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.skillHeading span{
+    color: red;
+}
+.skillContainer{
+    display: flex;
+    width: inherit;
+    align-items: center;
+    justify-content: space-around;
+    height: 670px;
+}
+.frontdev span{
+    color:red ;
+}
+.frontdev h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.uiux h2{
+    font-size: 40px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.skillContainer h1{
+    background-color: #222E2E;
+    margin: 20px 0px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 17px;
+    font-size: 43px;  
+    font-weight: 400;
+
+}
+.line{
+    width: 1px;
+    height: 450px;
+    background-color: white;
+}
+.skillContainer h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.frontdev{
+    display: flex;
+    flex-direction: column;   
+    align-items: center; 
+}
+.uiux{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+.h1Heading{
+    width: 400px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+/* ----------Projects----------- */
+
+.projects{
+    width: 98%;
+    height: 1100px;
+    background-color:black;
+    border-radius: 25px;
+    margin: 0px 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+.projectHeading{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectHeading h1{
+    font-size: 50px;
+}
+.projectHeading h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.projectHeading span{
+    color: #ff0000;
+}
+.projectHeading div{
+    width: inherit;
+}
+.project1 img{
+    max-width: 570px;
+    border-radius: 25px;
+}
+.project2 img{
+    max-width: 570px;
+    border-radius: 25px;
+}
+
+.project1{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+.project2{
+    display: flex;
+    align-items: center;
+    padding: 0px 80px 0px 80px;
+}
+.project1 p{
+    font-size: 25px;
+    padding-left: 30px;
+}
+.project2 p{
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+/* ---------Contact Me------------ */
+.contactme{
+    width: 98%;
+    height: 740px;
+    background-color:black;
+    border-radius: 25px 25px 0px 0px;
+    margin: 0px 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+.contactHeading{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactHeading h1{
+    font-size: 50px;
+}
+.contactHeading h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.contactHeading span{
+    color: #ff0000;
+}
+.contactleft img{
+    width:440px ;
+    border-radius: 100%;
+}
+.contactcontainer{
+    display: flex;
+    align-items: center;
+    height: 79vh;
+    justify-content: space-evenly;
+}
+.contactright input,textarea{
+    background-color: #222E2E;
+    border-radius: 20px;
+    border: none;
+}
+.contactright label{
+    position: absolute;
+    font-size: 22px;
+    top: 10%;
+    margin-left: 10px;
+    font-weight: lighter;
+
+}
+.contactright li{
+    position: relative;
+    padding: 6px 40px;
+}
+.contactright ul{
+    list-style: none;
+}
+.contactright input{
+    padding: 30px 50px;
+}
+.projectt, .msgg {
+    width: 535px;
+}
+.maill{
+    margin-left: 6px;
+}
+.contactright button{
+    margin-left: 220px;
+    padding: 11px 50px;
+    border-radius: 15px;
+    background-color: #ff0000;
+    color: white;
+    cursor:pointer ;
+    font-size: 22px;
+    font-weight: lighter;
+    border: none;
+}
+#maillll{
+    margin-left: 15px;
+}
+
+
+
+/* -------------footer----------------- */
+
+.footer{
+    width: 98% ;
+    height: 15vh;
+    background-color: #ff0000;
+    border-radius: 0px 0px 25px 25px;
+}
+.footer h3{
+    font-family: 'Karla', sans-serif;
+    font-weight: 250px;
+    font-size: 25px;
+    padding-left: 50px;
+    margin-top: 18px;
+}
+.footer h4{
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 50px;
+}
